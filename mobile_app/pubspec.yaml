@@ -1,0 +1,28 @@
+name: voice_clone_free
+description: Offline voice cloning TTS (Persian) demo
+version: 0.1.0
+publish_to: "none"
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  onnxruntime_flutter: ^1.4.0
+  audioplayers: ^5.2.0
+  file_picker: ^5.2.7
+  path_provider: ^2.0.14
+  permission_handler: ^11.3.0
+  record: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model.opt.onnx
